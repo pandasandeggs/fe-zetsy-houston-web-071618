@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: myfont;
+  font-weight: normal;
+  src: url('fonts/Baskerville.ttc') format('ttc');
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +20,65 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+p { 
+	font-size:em;
+	line-height:1.25em;
+	color: #858181;
+ }
+
+ img {
+ 	width: 100%;
+ 	border-top: 5px solid #858181;
+  border-right: 5px solid #858181;
+  border-bottom: 5px solid #858181;
+  border-left: 5px solid #858181;
+ 	margin: 0 auto;
+ 	
+ }
+ 
+ .press-pics {
+   border-top: 5px solid #aaa;
+   border-right: 5px solid #aaa;
+   border-bottom: 5px solid #aaa;
+   border-left: 5px solid #aaa;
+   width: 221px;
+   height: 140px;
+   margin-top: 20px;
+   margin-right:auto;
+   margin-bottom: 50px;
+   margin-left:auto;
+ }
+ 
+ h1 {
+   font: 50pt 'myfont', serif;
+   color: #858181;
+   margin-top: 0%;
+   margin-bottom: 1%;
+   font-weight: bolder;
+ }
+ 
+ h2 {
+   font: 25pt 'myfont', serif;
+   color: #858181;
+   font-weight: bold;
+ }
+ 
+ footer {
+   float: right;
+   position: relative;
+   right: 10px;
+   bottom: 25px;
+   font-size: smaller;
+ }
+ 
+ .press-pics:hover {
+   border-top: 5px solid #858181;
+   border-right: 5px solid #858181;
+   border-bottom: 5px solid #858181;
+   border-left: 5px solid #858181;
+ }
+ 
+ h1:hover {
+  color: #A9A9A9;
+ }
+ 
